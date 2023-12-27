@@ -6,8 +6,9 @@
 > - Vitest v1.1.0
 # Instalación y ejecución
  1. git clone https://github.com/PabloAgustinBustos/ChallengeJS.git 
- 2. npm i
- 3. npm run test
+ 2. cd ChallengeJS
+ 3. npm i
+ 4. npm run test
 
 # Primera solución
 Ya que en la primera solución se ejecuta en una maquina con infinitos recursos y sin importar el tiempo de ejecución, de elaboró un código típico que recorre el array dos veces en donde toma como valores iniciales el primer elemento y el siguiente. Luego se comprueba si la suma es igual al resultado. Al ser la solución así, tiene complejidad O(n^2).
