@@ -18,6 +18,9 @@ export function secondSolution(numbers, result) {
   const cache = new Set()
 
   for (let number of numbers) {
+    // En caso de que el número ya exista y que el resultado se componga de la suma de dos números iguales, lo mejor sería no calcular el complemento
+    if (cache.has(number) && (result/2 !== number)) continue
+
     // se calcula el complemento. number + complement = result
     let complement = result - number
     
