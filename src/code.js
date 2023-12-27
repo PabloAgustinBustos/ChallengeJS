@@ -1,4 +1,5 @@
 export function firstSolution(numbers, result) {
+
   return false
 }
 
